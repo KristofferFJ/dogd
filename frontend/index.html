@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    Bemærk: Artwork er lidt bummelum.
+    <div id="quiz-container">
+        <button class="question-btn" data-endpoint="1">100 (al information)</button>
+        <button class="question-btn" data-endpoint="2">200 (ingen p/t)</button>
+        <button class="question-btn" data-endpoint="3">300 (ingen beskrivelse af art)</button>
+        <button class="question-btn" data-endpoint="4">400 (kun art)</button>
+        <button class="question-btn" data-endpoint="5">500 (kun art, men rap, grotesk svær)</button>
+        <button class="question-btn" data-endpoint="scryfall">test</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<div id="answer" class="modal">
+    <div class="loader" id="loader"></div>
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="questionText">bum bum</p>
+    </div>
+</div>
